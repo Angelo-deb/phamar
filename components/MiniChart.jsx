@@ -1,7 +1,7 @@
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend,
 } from "recharts";
-import { today } from "../../lib/data";
+import { today } from "../lib/data";
 
 export default function MiniChart({ movements }) {
   const days = Array.from({ length: 7 }, (_, i) => {
